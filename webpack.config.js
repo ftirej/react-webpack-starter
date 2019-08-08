@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, 'dist'),
-    filename: '[name].[contentHash].js'
+    filename: '[name].[hash].js'
   },
   plugins: [
     new HtmlWebpackPlugin({
